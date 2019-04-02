@@ -1,0 +1,33 @@
+---
+client:
+
+    login_name: pa-frick          # state abbreviation, only one dash, no spaces
+
+    display_name: Frick County    # for user interface, subject lines, public visible, no state info
+
+    short_display_name: Frick     # max 18 char, no state info
+
+    a_code: PAFRI                 # max 10 char, state abbrev, all uppercase, no dashes
+
+    is_demo: 1                    # if demo 
+
+    is_direct: 0                  # if direct put 1
+
+    is_test_client: 1             # if test client
+
+    time_zone: US/Eastern         # values available: US/Eastern, US/Central, US/Mountain, US/Pacific, US/Alaska, US/Hawaii
+
+    # More info
+    use_this_thing: 0
+    use_that_thing: 0
+    use_this_other: 0
+
+    Information:                  # either "ABC" or "client"
+        ABC:
+            - ABC Tax             # max 30 char, be specific and unique within a client, no "ABC", "client", "customer" names
+            - ABC Emergency
+            - ABC Renew
+            - ABC PINDEB
+        client:
+            - Frick Tax
+            - Frick Emergency
