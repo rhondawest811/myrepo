@@ -18,7 +18,7 @@ client:
     time_zone: US/Eastern         # values available: US/Eastern, US/Central, US/Mountain, US/Pacific, US/Alaska, US/Hawaii
 
     # More info
-    use_this_thing: 0
+    use_this_thing: 1
     use_that_thing: 0
     use_this_other: 0
 
@@ -32,4 +32,3 @@ client:
             - Frick Tax
             - Frick Emergency
             
-  I HAVE ADDED SOME THINGS HERE
